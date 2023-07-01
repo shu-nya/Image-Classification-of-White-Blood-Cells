@@ -1,6 +1,10 @@
 # Task: White Blood Cell Classification
 -------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+Note: Notebook 2 is a continuation of Notebook 1. Please run Notebook 1 first and then run Notebook 2.
+
+
 ## 📖 Project Goal
 
 This task aims to classify images of White Blood Cells into 9 subtypes. The specific types of WBCs to be classified are as follows: bands, basophils, blasts, eosinophils, lymphocytes, metamyelocytes, monocytes, myelocytes, and neutrophils. 
