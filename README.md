@@ -1,5 +1,5 @@
 # Task: White Blood Cell Classification
----------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📖 Project Goal
 
@@ -15,26 +15,28 @@ The data has been provided to me and it contains two folders: WBC and classify-i
 -> classify-images: This folder has unlabelled images. It is to be used for classifying the images after the model has been trained and tested.
 
 
-## 📖 Modelling Environment
+## 📖 Training Environment: Colab notebook (free version)
 
-All the tasks have been performed in the free version of the Colab notebook having System RAM = 12.7 GB. The CNN and models have been trained using GPU T4. 
+1. All the tasks have been performed in the free version of the Colab notebook having System RAM = 12.7 GB. 
+
+2. The models have been trained using GPU T4. 
 
 
 ## 📖 Task Work-flow: Pre-processing
 
-1. Two more folders using the labelled images of the folder WBC in the base directory are created. One folder is named train and the other is the test.
-   
--> train: 80% of the labelled images of folder WBC are copied into the train folder. 
+1. Creation of train and test folders using the labelled images of the folder WBC in the base directory:
+
+-> train: 80% of the labelled images of the folder WBC are copied into the train folder.
 
 -> test: the remaining labelled images are copied into the test folder. The test folder will be used for model testing and evaluation. This is because the folder classify-images has unlabelled images and it is difficult to create a confusion matrix using it.
-   
-2. The independent variable X is an array created from images having dimensions = 256, 256. Hence X has been normalized so that the images contribute more evenly to the total loss.
 
-3. The dataset was augmented to increase the variations in the images of each class.
+2. Normalization: The independent variable X is an array created from images having dimensions = 256, 256. Hence X has been normalized so that the images contribute more evenly to the total loss.
 
-4. The balance of the dataset is checked and it is found that it is an unbalanced dataset. Hence, the imbalance was removed using SMOTE.
+3. Augmentation: The dataset is augmented to increase the variations in the images of each class.
 
-5. One-hot encoding of the labels in the training dataset is done.
+4. Over-sampling using SMOTE: The balance of the dataset is checked and it is found that it is an unbalanced dataset. Hence, the imbalance is removed using SMOTE.
+
+5. One-hot encoding of the labels in the training dataset.
 
 
 ## 📖 Task Work-flow: Model training and testing
