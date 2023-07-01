@@ -47,7 +47,9 @@ The data has been provided to me and it contains two folders: WBC and classify-i
 
 Note: Accuracy is used as a metric for model evaluation because it is more important that the model classifies each image correctly rather than penalizing the False-Positives (Precision) or the False-Negatives (Recall) or penalizing both (F1).
 
-### VGG16 model: It gave a prediction accuracy of 76.6% on the test set.
+### VGG16 model: It gave a prediction accuracy of around 75% on the test set created from the wbc folder.
+
+After training the model, predictions have been made on the classify-images folder dataset and the output has been stored in a dataframe.
 
 
 ## 📖 Challenges faced
@@ -59,3 +61,15 @@ Note: Accuracy is used as a metric for model evaluation because it is more impor
 3. Concerning SMOTE: SMOTE uses the KNN algorithm to increase the number of samples in the minority classes. The class blasts in the training dataset have only 3 images. This means that each image has only 2 neighbours in the original train dataset. Hence, applying SMOTE to the original training dataset may create many similar images in the under-represented classes.
 
 4. Hence, image augmentation has been done before applying SMOTE. Augmentation creates many variations in the under-represented classes and after that, SMOTE over-samples the variations.
+
+5. A CNN model built from scratch and a Resnet152 model were also trained. But their predictions were not satisfactory. More work has to be done to improve their predictions.
+
+
+## 📖 Future work
+
+1. Fine-tuning the VGG16 model.
+
+2. Dealing with overfitting.
+
+3. Selecting the appropriate number of layers to unfreeze by careful experimentation.
+
