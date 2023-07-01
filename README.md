@@ -1,4 +1,4 @@
-# Image-Classification-of-White-Blood-Cells into 9 sub-types
+# Task: White Blood Cell Classification
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📖 Project Goal
@@ -17,7 +17,7 @@ The data has been provided to me and it contains two folders: WBC and classify-i
 
 ## 📖 Modelling Environment
 
-All the tasks have been performed in the free version of Colab notebook having System RAM = 12.7 GB. The CNN and models have been trained using GPU T4. 
+All the tasks have been performed in the free version of the Colab notebook having System RAM = 12.7 GB. The CNN and models have been trained using GPU T4. 
 
 
 ## 📖 Task Work-flow: Pre-processing
@@ -44,12 +44,12 @@ Note: Accuracy is used as a metric for model evaluation because it is more impor
 ### VGG16 model: It gave a prediction accuracy of 76.6% on the test set.
 
 
-## 📖 Challenges
+## 📖 Challenges faced
 
 1. The computational resource limitation to handle image data: The pre-processing steps, especially image augmentation and SMOTE, are restricted by the 12.7 GB RAM available in the Colab notebook.
 
 2. To manage the computational limitation, multiple Colab notebooks for different tasks have been used.
 
-3. Concerning SMOTE: SMOTE uses KNN algorithm to increase the number of samples in the minority classes. The class blasts in the train dataset has only 3 images. This means that each image has only 2 neighbours in the original train dataset. Hence, applying SMOTE on the original training dataset may created many similar images in the under-represented classes.
+3. Concerning SMOTE: SMOTE uses the KNN algorithm to increase the number of samples in the minority classes. The class blasts in the training dataset have only 3 images. This means that each image has only 2 neighbours in the original train dataset. Hence, applying SMOTE to the original training dataset may create many similar images in the under-represented classes.
 
-4. Hence, image augmentation has been done before applying SMOTE. Augmentation creates many variations in the under-represented classes and after that SMOTE over-samples the variations.
+4. Hence, image augmentation has been done before applying SMOTE. Augmentation creates many variations in the under-represented classes and after that, SMOTE over-samples the variations.
