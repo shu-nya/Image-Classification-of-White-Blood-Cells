@@ -52,6 +52,11 @@ Note: Accuracy is used as a metric for model evaluation because it is more impor
 After training the model, predictions have been made on the classify-images folder dataset and the output has been stored in a dataframe.
 
 
+## Inference: on Generalization of the results
+
+The dataset is originally imbalanced. It is biased towards the well-represented classes. The results are not expected to generalize well due to the fact that some classes in the train dataset are under-represented and hence SMOTE technique is used to treat the underlying imbalance. However, SMOTE can still be ineffective in model fine-tuning due to the generation of lower-quality images.
+
+
 ## 📖 Challenges faced
 
 1. The computational resource limitation to handle image data: The pre-processing steps, especially image augmentation and SMOTE, are restricted by the 12.7 GB RAM available in the Colab notebook.
