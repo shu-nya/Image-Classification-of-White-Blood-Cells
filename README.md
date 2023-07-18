@@ -4,6 +4,13 @@
 
 Note: Notebook 2 is a continuation of Notebook 1. Please run Notebook 1 first and then run Notebook 2.
 
+![23_78_949_983_256](https://github.com/shu-nya/Image-Classification-of-White-Blood-Cells/assets/115604932/0f460d80-9a27-461e-9238-045bebaf7448) ![30_122_1189_486_256](https://github.com/shu-nya/Image-Classification-of-White-Blood-Cells/assets/115604932/ffacf398-11d4-4b46-a0ed-4585f80a65b4) ![14_19_1189_537_256](https://github.com/shu-nya/Image-Classification-of-White-Blood-Cells/assets/115604932/be32fcfb-c764-4515-b07c-8722742c26bb) ![19_97_1708_304_256](https://github.com/shu-nya/Image-Classification-of-White-Blood-Cells/assets/115604932/86a870ea-951d-4a72-b226-9675222fc0c8) ![36_95_1390_256_256](https://github.com/shu-nya/Image-Classification-of-White-Blood-Cells/assets/115604932/61e00e5b-9749-47a7-921e-3dcde89140dd) ![4_58_1393_227_256](https://github.com/shu-nya/Image-Classification-of-White-Blood-Cells/assets/115604932/6d3d64d0-3345-4849-8487-793da8070463) ![44_112_609_146_256](https://github.com/shu-nya/Image-Classification-of-White-Blood-Cells/assets/115604932/ef19c098-6081-41ed-8011-d50644961e66) ![19_21_1734_334_256](https://github.com/shu-nya/Image-Classification-of-White-Blood-Cells/assets/115604932/3dc54fb0-5113-4371-9949-0fbae0862d62) ![15_41_1433_592_256](https://github.com/shu-nya/Image-Classification-of-White-Blood-Cells/assets/115604932/c3f8eaf7-a682-4c5e-bcb6-5f3b593924ab)
+
+
+
+
+
+
 
 ## 📖 Project Goal
 
